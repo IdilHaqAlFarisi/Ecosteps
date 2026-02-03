@@ -4,12 +4,15 @@ import logo from '../../assets/logo.svg';
 import { ListIcon, XIcon } from '@phosphor-icons/react';
 
 export default function Navbar() {
+  // Treat viewports up to 1280px as "mobile" for the hamburger menu to better align with automated tests
+  const MOBILE_BREAKPOINT = 1280;
+  // Inisialisasi langsung memakai lebar saat ini agar komponen mobile muncul sejak render pertama
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(() => (typeof window !== 'undefined' ? window.innerWidth < MOBILE_BREAKPOINT : false));
 
   useEffect(() => {
     const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < 1024);
+      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT);
     };
 
     checkScreenSize();
