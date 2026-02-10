@@ -238,10 +238,6 @@ Kontribusi selalu diterima! Jika Anda ingin berkontribusi:
 
 Project ini dibuat untuk tujuan edukasi dan pengembangan komunitas.
 
-## 👨‍💻 Developer
-
-Dibuat oleh [Idil Haq Al Farisi](https://github.com/IdilHaqAlFarisi)
-
 ## 📧 Kontak
 
 Untuk pertanyaan atau saran, silakan buat issue di repository ini.
