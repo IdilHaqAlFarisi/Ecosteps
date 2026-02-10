@@ -240,14 +240,10 @@ Project ini dibuat untuk tujuan edukasi dan pengembangan komunitas.
 
 ## 👨‍💻 Developer
 
-Dibuat dengan ❤️ oleh [Idil Haq Al Farisi](https://github.com/IdilHaqAlFarisi)
+Dibuat oleh [Idil Haq Al Farisi](https://github.com/IdilHaqAlFarisi)
 
 ## 📧 Kontak
 
 Untuk pertanyaan atau saran, silakan buat issue di repository ini.
 
 ---
-
-<div align="center">
-  <p>🌍 Mari bersama-sama menjaga lingkungan! 🌱</p>
-</div>
